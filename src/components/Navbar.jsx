@@ -14,12 +14,12 @@ function Navbar() {
     return (
         <div className=" w-full bg-slate-100 py-4">
             <div className="flex gap-10 justify-between items-center md:px-6 px-2 relative">
-                <h1 className="logo font-extrabold text-[#cfc6cf] md:text-2xl text-lg">
+                <h1 className="logo font-extrabold text-black md:text-2xl text-lg">
                     <span className="text-green-400">&lt;</span>
                 PassManager<span className="text-green-400">/&gt;</span>
                 </h1>
 
-                <div className=" md:flex gap-10 font-normal text-lg font-mono hidden text-[#b2eab2] items-center justify-evenly">
+                <div className=" md:flex gap-10 font-normal text-lg font-mono hidden text-black items-center justify-evenly">
                     <a className="hover:underline cursor-pointer">Home</a>
                     <a className="hover:underline cursor-pointer">About</a>
                     <a className="hover:underline cursor-pointer">Saved</a>
