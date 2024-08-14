@@ -126,7 +126,7 @@ function Hero() {
   };
 
   return (
-    <>
+    <div className="w-full h-full">
       <ToastContainer
         position="top-right"
         autoClose={2500}
@@ -297,7 +297,7 @@ function Hero() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
