@@ -5,7 +5,7 @@ import { FaHeart } from "react-icons/fa";
 
 function Footer() {
     return (
-        <div className="w-full fixed bottom-1">
+        <div className="w-full fixed bottom-0">
 
             <div className='flex justify-center items-center py-4 bg-blue-950 text-white'>
 
