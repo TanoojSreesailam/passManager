@@ -12,7 +12,7 @@ function Navbar() {
         setNav(!nav)
     }
     return (
-        <div className=" w-full  bg-[#1b0331] py-4">
+        <div className=" w-full bg-slate-100 py-4">
             <div className="flex gap-10 justify-between items-center md:px-6 px-2 relative">
                 <h1 className="logo font-extrabold text-[#cfc6cf] md:text-2xl text-lg">
                     <span className="text-green-400">&lt;</span>
