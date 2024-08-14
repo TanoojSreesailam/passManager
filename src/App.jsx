@@ -8,7 +8,7 @@ import Footer from "./components/Footer"
 function App() {
 
   return (
-    <div className="w-full h-screen bg-[#c3e4c3]">
+    <div className="w-full h-screen">
       <Navbar/>
       <Hero/>
       <Footer/> 
