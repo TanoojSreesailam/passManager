@@ -31,7 +31,7 @@ function Navbar() {
                 
                 <div onClick={handleNav} className="flex items-center absolute top-2 right-2 cursor-pointer
                 ">
-                {!nav? <GiHamburgerMenu size={20} className="md:hidden absolute right-2 z-[2] text-white"/> : <IoClose size={30} className="md:hidden fixed right-2 z-[2]"/>}
+                {!nav? <GiHamburgerMenu size={20} className="md:hidden absolute right-2 z-[2] text-black"/> : <IoClose size={30} className="md:hidden fixed right-2 z-[2]"/>}
                 </div>
 
                 <div className={!nav?`fixed top-0 left-0 w-full z-[1] hidden `: `fixed top-0 left-0 w-full z-[1] visible`}>
