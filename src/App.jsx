@@ -11,7 +11,7 @@ function App() {
     <div className="w-full h-screen">
       <Navbar/>
       <Hero/>
-      <Footer/> 
+{/*       <Footer/>  */}
     </div>
   )
 }
