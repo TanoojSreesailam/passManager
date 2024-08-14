@@ -126,7 +126,7 @@ function Hero() {
   };
 
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full py-16">
       <ToastContainer
         position="top-right"
         autoClose={2500}
