@@ -13,15 +13,8 @@ function Footer() {
             <span className="flex gap-2">
             <p className='font-bold'>Created with </p>
                 <RiReactjsLine className='text-blue-500 text-center pl-1' size={30}/>
-                <p className='font-bold px-1'> React not </p>
+                <p className='font-bold px-1'> React</p>
             </span>
-            
-            <span className="flex">
-                <FaHeart className='text-red-600 text-center px-1' size={30}/> 
-                <p className='font-bold'> Love</p>
-            </span>
-            
-
             </div>
         </div>
     )
