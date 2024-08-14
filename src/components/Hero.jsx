@@ -214,7 +214,7 @@ function Hero() {
               
             </div>
           </div>
-          <div className="w-full lg:px-8 overflow-auto rounded-lg shadow">
+          <div className="w-full lg:px-8 overflow-auto rounded-lg shadow py-8">
             <h1 className="font-bold text-2xl  text-center  uppercase">
               Saved passwords
             </h1>
